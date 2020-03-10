@@ -2,7 +2,6 @@
 
 function karmarkarKarpAlg(array $input): int
 {
-    sort($input);
     $heap = new SplMaxHeap();
 
 
