@@ -11,7 +11,7 @@ $testDate = [
 
 
 
-foreach ($testDate as $oneKeys){
+foreach ($testDate as $oneKeys) {
     $result = [];
     $mbValue = karmarkarKarpAlg($oneKeys["data_set"]);
     $res = $mbValue == $oneKeys["true_result"] ? TEST_OK: TEST_FAIL;
@@ -25,6 +25,3 @@ foreach ($testDate as $oneKeys){
     echo("\n");
 }
 //karmarkarKarpAlg($dataSet_1) == 1 ? TEST_OK: TEST_FAIL;
-
-
-
